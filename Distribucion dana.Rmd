@@ -1,0 +1,44 @@
+---
+title: "Distribución de probabilidad"
+author: "Dana Gomez"
+date: '2022-03-23'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Distribución
+
+## Probabilidad de que 35 alumnos lleguen en 15 minutos a la entrada de la escuela
+
+x= numero de alumnos
+lamda= tiempo de llegada.
+
+```{r}
+x=35
+lamda=15
+```
+
+```{r}
+dpois(x,lamda)
+```
+
+
+
+
+## Probabilidad de que 50 alumnos lleguen en 15 minutos a la entrada de la escuela
+
+x= número de alumnos
+lamda= tiempo de llegada.
+
+```{r}
+x=50
+lamda=15
+
+```
+
+```{r}
+dpois(x,lamda)
+```
+
